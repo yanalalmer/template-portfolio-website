@@ -1,11 +1,12 @@
 import './app.scss';
 // components
-import { Navbar } from './components';
+import { Navbar, Hero } from './components';
 function App() {
   return (
     <div>
       <section id='homepage'>
         <Navbar />
+        <Hero />
       </section>
       <section id='services'>Parallex</section>
       <section>Parallex</section>
