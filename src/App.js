@@ -4,12 +4,13 @@ import { Navbar } from './components';
 function App() {
   return (
     <div>
-      <section>
+      <section id='homepage'>
         <Navbar />
       </section>
-      <section>Hero</section>
+      <section id='services'>Parallex</section>
       <section>Parallex</section>
-      <section>Services</section>
+      <section id='portfolio'>portfolio</section>
+      <section id='contact'>Contact</section>
       <section>Parallax</section>
       <section>Portfolio1</section>
       <section>Portfolio2</section>
