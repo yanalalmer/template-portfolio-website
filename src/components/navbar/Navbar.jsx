@@ -1,12 +1,19 @@
 import React from 'react';
 import './navbar.scss';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
   return (
     <header className='navbar'>
       {/* sidebar */}
       <div className='wrapper'>
-        <span>Yanal Almir</span>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          Yanal Almir
+        </motion.span>
         <div className='social'>
           <a href='/facebook'>
             <img src='/facebook.png' alt='facebook' />
