@@ -1,6 +1,13 @@
 import './app.scss';
 // components
-import { Navbar, Hero, Parallax, Services, Portfolio } from './components';
+import {
+  Navbar,
+  Hero,
+  Parallax,
+  Services,
+  Portfolio,
+  Contact,
+} from './components';
 function App() {
   return (
     <div>
@@ -18,7 +25,9 @@ function App() {
         <Parallax type='portfolio' />
       </section>
       <Portfolio />
-      <section id='contact'>Contact</section>
+      <section id='contact'>
+        <Contact />
+      </section>
     </div>
   );
 }
