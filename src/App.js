@@ -1,6 +1,6 @@
 import './app.scss';
 // components
-import { Navbar, Hero, Parallax } from './components';
+import { Navbar, Hero, Parallax, Services } from './components';
 function App() {
   return (
     <div>
@@ -11,7 +11,9 @@ function App() {
       <section id='services'>
         <Parallax type='services' />
       </section>
-      <section>Parallex</section>
+      <section>
+        <Services />
+      </section>
       <section id='portfolio'>
         <Parallax type='portfolio' />
       </section>
