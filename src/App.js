@@ -15,15 +15,15 @@ function App() {
         <Navbar />
         <Hero />
       </section>
-      {/* <section id='services'>
+      <section id='services'>
         <Parallax type='services' />
-      </section> */}
+      </section>
       {/* <section>
         <Services />
       </section> */}
-      {/* <section id='portfolio'>
+      <section id='portfolio'>
         <Parallax type='portfolio' />
-      </section> */}
+      </section>
       {/* <Portfolio /> */}
       {/* <section id='contact'>
         <Contact />
