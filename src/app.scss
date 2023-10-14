@@ -12,6 +12,9 @@ body {
   background-color: #0c0c1d;
   color: lightgray;
 }
+*:focus {
+  outline: none;
+}
 a {
   text-decoration: none;
   color: inherit;
